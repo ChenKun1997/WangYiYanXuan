@@ -101,7 +101,7 @@ module.exports = function(webpackEnv) {
               stage: 3,
             }),
             require('postcss-pxtorem')({
-              rootValue: 37.5,//  效果图宽度除以10
+              rootValue: 75,//  效果图宽度除以10
               unitPrecision: 5,
               propList: ['*'],
               selectorBlackList: ['.borderBottom'],

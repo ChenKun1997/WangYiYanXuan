@@ -1,0 +1,18 @@
+.loading-wrap{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    .loading{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        img{
+            width: 350px;
+            opacity: 0.9;
+        }
+    }
+}

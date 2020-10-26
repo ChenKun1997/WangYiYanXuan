@@ -1,14 +1,13 @@
 import {createStore,combineReducers,compose,applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 
-const initalState = {
-    a:1
-}
+import homeReducer from '../pages/home/Root/reducer';
+import cateReducer from '../pages/category/Root/reducer'
+
 
 const reducer = combineReducers({
-    test:(state = initalState,action)=>{
-        return state;
-    }
+    home:homeReducer,
+    cate:cateReducer
 })
 
 
